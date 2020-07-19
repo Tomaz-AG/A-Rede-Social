@@ -1,0 +1,29 @@
+.header{
+    background: red;
+}
+
+.main{
+    background: blue;
+    height: 100vh;
+    display: flex;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    min-height: 84px;
+    padding: 0 24px;
+}
+
+.navbar{
+    width: 350px;
+    background: blue;
+}
+
+.feed{
+    background: yellow;
+    width: 100%;
+    padding: 24px;
+}
