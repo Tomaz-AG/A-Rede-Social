@@ -1,22 +1,11 @@
-import React from 'react';
-import './style.css'
+import React from 'react';import './style.css'
+import Header from'./components/Header.js'
 
 function Home(){
     return(
         <div>
-            <header className="header">
-                <div className="tollbar">
-                    <a href="/">A Rede Social</a>
-                    <imput type="text"></imput>
-                </div>
-
-                    <div>
-                        <button>Novo post</button>
-                        <spam>img1</spam>
-                        <spam>img2</spam>
-                    </div>
-            </header>
-
+            <Header>
+            </Header>    
             <div className="toolbar"></div> 
             <main className="feed">
                 <div className="toolbar"> </div>
